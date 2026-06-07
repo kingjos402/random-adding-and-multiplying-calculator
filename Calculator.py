@@ -21,3 +21,7 @@ for i in range(5):  # This runs the code 5 times
         mul = mul1 * mul2
         #prints the result of multiplication
         print(f"Result: {mul}")
+    
+    print()  # Add blank line between runs
+
+print("All 5 runs completed!")
