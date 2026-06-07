@@ -1,7 +1,9 @@
 import random
+import sys
 
 for i in range(5):  # This runs the code 5 times
     print(f"--- Run {i+1} ---")
+    sys.stdout.flush()  # Force output to display immediately
     
     # adds numbers
     add1 = random.randint(1,10)
@@ -23,5 +25,7 @@ for i in range(5):  # This runs the code 5 times
         print(f"Result: {mul}")
     
     print()  # Add blank line between runs
+    sys.stdout.flush()  # Force output to display immediately
 
 print("All 5 runs completed!")
+sys.stdout.flush()
