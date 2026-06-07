@@ -15,9 +15,9 @@ for i in range(5):  # This runs the code 5 times
         print("doing addition")
         add = add1 + add2
         #prints the result of addition
-        print(add)
+        print(f"Result: {add}")
     else:
         print("doing multiplication")
         mul = mul1 * mul2
         #prints the result of multiplication
-        print(mul)
+        print(f"Result: {mul}")
